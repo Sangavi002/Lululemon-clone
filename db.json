@@ -1,0 +1,330 @@
+{
+  "shorts": [
+    {
+      "id": "1",
+      "title": "lululemon Align™ High-Rise Short 6",
+      "price": "64",
+      "image": "./src/Mainpage/ShortSlider/highRise.webp"
+    },
+    {
+      "id": "2",
+      "title": "Hotty Hot High-Rise Lined Short 2.5",
+      "price": "68",
+      "image": "./src/Mainpage/ShortSlider/highRiseLined.webp"
+    },
+    {
+      "id": "3",
+      "title": "Pace Breaker Linerless Short 7",
+      "price": "68",
+      "image": "./src/Mainpage/ShortSlider/linerless.webp"
+    },
+    {
+      "id": "4",
+      "title": "Zeroed In Linerless Short 7",
+      "price": "68",
+      "image": "./src/Mainpage/ShortSlider/zeroed.webp"
+    },
+    {
+      "id": "5",
+      "title": "License to Train High-Rise Lightweight Short 4",
+      "price": "88",
+      "image": "../src/Mainpage/ShortSlider/license.webp"
+    },
+    {
+      "id": "6",
+      "title": "Softstreme High-Rise Short 4",
+      "price": "78",
+      "image": "../src/Mainpage/ShortSlider/softstreme.webp"
+    },
+    {
+      "id": "7",
+      "title": "ABC Classic-Fit Short 7 Warpstreme",
+      "price": "88",
+      "image": "../src/Mainpage/ShortSlider/abc.webp"
+    },
+    {
+      "id": "8",
+      "title": "Bowline Short 5 Stretch Cotton VersaTwill",
+      "price": "78",
+      "image": "../src/Mainpage/ShortSlider/bowline.webp"
+    }
+  ],
+  "women": [
+    {
+      "id": "1",
+      "title": "lululemon Align™ Cami Strap Dress",
+      "price": "148",
+      "image": "./src/Mainpage/WomenSlider/strap.webp"
+    },
+    {
+      "id": "2",
+      "title": "Everywhere Belt Bag 1L",
+      "price": "38",
+      "image": "./src/Mainpage/WomenSlider/bag.webp"
+    },
+    {
+      "id": "3",
+      "title": "lululemon Align™ Waist-Length Racerback Tank Top",
+      "price": "58",
+      "image": "./src/Mainpage/WomenSlider/top.webp"
+    },
+    {
+      "id": "4",
+      "title": "lululemon Align™ High-Rise Pant with Pockets 25",
+      "price": "128",
+      "image": "./src/Mainpage/WomenSlider/pant.webp"
+    },
+    {
+      "id": "5",
+      "title": "restfeel Women's Slide",
+      "price": "58",
+      "image": "./src/Mainpage/WomenSlider/slide.webp"
+    },
+    {
+      "id": "6",
+      "title": "Scuba Oversized Funnel-Neck Half ZipL",
+      "price": "118",
+      "image": "./src/Mainpage/WomenSlider/zip.webp"
+    },
+    {
+      "id": "7",
+      "title": "lululemon Align™ High-Rise Mini-Flared Pant Extra Short",
+      "price": "118",
+      "image": "./src/Mainpage/WomenSlider/flared.webp"
+    },
+    {
+      "id": "8",
+      "title": "New Parent Backpack 17L",
+      "price": "198",
+      "image": "./src/Mainpage/WomenSlider/backpack.webp"
+    }
+  ],
+  "womendress": [
+    {
+      "id": "1",
+      "title": "Scoop-Neck Pleated Linerless Tennis Dress",
+      "price": "148",
+      "image": "../src/Women/dress/scoop.webp"
+    },
+    {
+      "id": "2",
+      "title": "lululemon Align™ Dress",
+      "price": "148",
+      "image": "../src/Women/dress/align.webp"
+    },
+    {
+      "id": "3",
+      "title": "lululemon Align™ Cami Strap Dress",
+      "price": "148",
+      "image": "../src/Women/dress/strap.webp"
+    },
+    {
+      "id": "4",
+      "title": "Ribbed Contoured Unitard 6",
+      "price": "128",
+      "image": "../src/Women/dress/unitard.webp"
+    },
+    {
+      "id": "5",
+      "title": "Lightweight Linerless Tennis Dress Logo",
+      "price": "128",
+      "image": "../src/Women/dress/linerlesst.webp"
+    },
+    {
+      "id": "6",
+      "title": "Grid-Texture Sleeveless Linerless Tennis Dress",
+      "price": "128",
+      "image": "../src/Women/dress/tennis.webp"
+    },
+    {
+      "id": "7",
+      "title": "All Aligned Ribbed Midi Dress",
+      "price": "128",
+      "image": "../src/Women/dress/ribbed.webp"
+    },
+    {
+      "id": "8",
+      "title": "Ribbed Softstreme Slim-Fit Tank Dress",
+      "price": "138",
+      "image": "../src/Women/dress/slimfit.webp"
+    },
+    {
+      "id": "9",
+      "title": "Lightweight Linerless Tennis Dress",
+      "price": "118",
+      "image": "../src/Women/dress/lightweight.webp"
+    },
+    {
+      "id": "10",
+      "title": "lululemon Align™ Dress",
+      "price": "99",
+      "image": "../src/Women/dress/alignd.webp"
+    },
+    {
+      "id": "11",
+      "title": "Lightweight Linerless Tennis Dress",
+      "price": "84",
+      "image": "../src/Women/dress/linerless.webp"
+    },
+    {
+      "id": "12",
+      "title": "Ribbed Softstreme Slim-Fit Tank Dress",
+      "price": "99",
+      "image": "../src/Women/dress/tank.webp"
+    },
+    {
+      "id": "13",
+      "title": "Scoop-Neck Pleated Tennis Dress",
+      "price": "99",
+      "image": "../src/Women/dress/pleat.webp"
+    },
+    {
+      "id": "14",
+      "title": "Court Crush Short-Lined Tennis Dress",
+      "price": "54",
+      "image": "../src/Women/dress/crush.webp"
+    },
+    {
+      "id": "15",
+      "title": "Asymmetrical Knit Dress",
+      "price": "99",
+      "image": "../src/Women/dress/knit.webp"
+    },
+    {
+      "id": "16",
+      "title": "Fast and Free Zip-Front Dress",
+      "price": "128",
+      "image": "../src/Women/dress/zip.webp"
+    },
+    {
+      "id": "17",
+      "title": "Everlux Short-Lined Tennis Tank Top Dress 6",
+      "price": "54",
+      "image": "../src/Women/dress/everlux.webp"
+    },
+    {
+      "id": "18",
+      "title": "Pleated Open-Knit Linerless Tennis Dress",
+      "price": "89",
+      "image": "../src/Women/dress/pleat.webp"
+    },
+    {
+      "id": "19",
+      "title": "Cotton Wrap-Front T-Shirt Dress",
+      "price": "39",
+      "image": "../src/Women/dress/wrap.webp"
+    },
+    {
+      "id": "20",
+      "title": "V-Neck Racerback Linerless Tennis Dress",
+      "price": "79",
+      "image": "../src/Women/dress/vneck.webp"
+    }
+  ],
+  "mendress": [
+    {
+      "id": "1",
+      "title": "Airing Easy Short-Sleeve Shirt",
+      "price": "88",
+      "image": "../src/Men/dress/airing.webp"
+    },
+    {
+      "id": "2",
+      "title": "Lightweight Camp Collar Button-Up Shirt",
+      "price": "98",
+      "image": "../src/Men/dress/lightweight.webp"
+    },
+    {
+      "id": "3",
+      "title": "Commission Long-Sleeve Shirt",
+      "price": "118",
+      "image": "../src/Men/dress/commission.webp"
+    },
+    {
+      "id": "4",
+      "title": "New Venture Slim-Fit Long-Sleeve Shirt",
+      "price": "118",
+      "image": "../src/Men/dress/new.webp"
+    },
+    {
+      "id": "5",
+      "title": "Commission Long-Sleeve Shirt Oxford",
+      "price": "118",
+      "image": "../src/Men/dress/oxford.webp"
+    },
+    {
+      "id": "6",
+      "title": "New Venture Classic-Fit Long-Sleeve Shirt",
+      "price": "128",
+      "image": "../src/Men/dress/classicfit.webp"
+    },
+    {
+      "id": "7",
+      "title": "Relaxed-Fit Long-Sleeve Button-Up",
+      "price": "138",
+      "image": "../src/Men/dress/relaxed.webp"
+    },
+    {
+      "id": "8",
+      "title": "Airing Easy Short Sleeve Button-Up Shirt",
+      "price": "98",
+      "image": "../src/Men/dress/button.webp"
+    },
+    {
+      "id": "9",
+      "title": "Commission Long-Sleeve Shirt Oxford",
+      "price": "48",
+      "image": "../src/Men/dress/long.webp"
+    },
+    {
+      "id": "10",
+      "title": "Soft Knit Overshirt",
+      "price": "68",
+      "image": "../src/Men/dress/soft.webp"
+    },
+    {
+      "id": "11",
+      "title": "Soft Knit Overshirt French Terry",
+      "price": "98",
+      "image": "../src/Men/dress/french.webp"
+    },
+    {
+      "id": "12",
+      "title": "Commission Long-Sleeve Shirt",
+      "price": "79",
+      "image": "../src/Men/dress/tealshirt.webp"
+    },
+    {
+      "id": "13",
+      "title": "Relaxed-Fit Long Sleeve Button-Up Shirt",
+      "price": "118",
+      "image": "../src/Men/dress/whiterelax.webp"
+    },
+    {
+      "id": "14",
+      "title": "Rulu Button-Up Shirt",
+      "price": "65",
+      "image": "../src/Men/dress/rulu.webp"
+    }
+  ],
+  "cart": [
+    {
+      "id": "91f6",
+      "title": "Airing Easy Short-Sleeve Shirt",
+      "price": "88",
+      "image": "../src/Men/dress/airing.webp",
+      "productId": "1",
+      "color": "Red",
+      "size": "2"
+    },
+    {
+      "id": "fea1",
+      "title": "lululemon Align™ Dress",
+      "price": "148",
+      "image": "../src/Women/dress/align.webp",
+      "productId": "2",
+      "color": "Red",
+      "size": "2"
+    }
+  ]
+}
