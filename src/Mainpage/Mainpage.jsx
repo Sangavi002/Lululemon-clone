@@ -12,7 +12,7 @@ export const Mainpage = () => {
     const [women,setWomen] = useState([]);
 
     useEffect(() => {
-        fetch("http://localhost:3000/shorts")
+        fetch("https://swanky-carpal-work.glitch.me/shorts")
         .then(res => res.json())
         .then(data => {
             setShort(data);
@@ -21,7 +21,7 @@ export const Mainpage = () => {
     }, []);
 
     useEffect(() => {
-        fetch("http://localhost:3000/women")
+        fetch("https://swanky-carpal-work.glitch.me/women")
         .then(res => res.json())
         .then(data => {
             setWomen(data);

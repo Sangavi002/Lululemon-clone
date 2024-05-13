@@ -10,14 +10,14 @@ export const Cart = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`http://localhost:3000/cart`)
+        fetch(`https://swanky-carpal-work.glitch.me/cart`)
             .then((response) => response.json())
             .then((data) => setProducts(data))
             .catch((error) => console.log(error))
     },[]);
 
     const removeItemFromCart = (id) => {
-        fetch(`http://localhost:3000/cart/${id}`, {
+        fetch(`https://swanky-carpal-work.glitch.me/cart/${id}`, {
             method: 'DELETE',
         })
             .then(response => response.json())
@@ -49,7 +49,7 @@ export const Cart = () => {
   
         cartItem.quantity = newQuantity;
 
-        fetch(`http://localhost:3000/cart/${cartId}`, {
+        fetch(`https://swanky-carpal-work.glitch.me/cart/${cartId}`, {
             method: 'PUT',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(cartItem),

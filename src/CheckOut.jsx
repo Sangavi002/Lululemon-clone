@@ -2,7 +2,7 @@
 import { Heading, Box, Flex, Image, Text, Input, Checkbox, Select, Button, Center } from "@chakra-ui/react";
 import tick from "./image/tick.png";
 import { OrderSummary } from "./OrderSummary";
-import { useCheckout } from './Check'; 
+import { useCheck } from './Check'; 
 
 export const CheckOut = () => {
     const {
@@ -31,7 +31,7 @@ export const CheckOut = () => {
             setState("");
             setZip("");
 
-        fetch('http://localhost:3000/cart', {
+        fetch('https://swanky-carpal-work.glitch.me/cart', {
         method: 'DELETE',
         headers: {
             Accept: 'application/json',

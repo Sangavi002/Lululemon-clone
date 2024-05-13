@@ -309,22 +309,23 @@
   ],
   "cart": [
     {
-      "id": "91f6",
-      "title": "Airing Easy Short-Sleeve Shirt",
-      "price": "88",
-      "image": "../src/Men/dress/airing.webp",
-      "productId": "1",
-      "color": "Red",
-      "size": "2"
-    },
-    {
-      "id": "fea1",
+      "id": "2274",
       "title": "lululemon Align™ Dress",
       "price": "148",
       "image": "../src/Women/dress/align.webp",
       "productId": "2",
       "color": "Red",
-      "size": "2"
+      "size": "8",
+      "quantity": "2"
+    },
+    {
+      "id": "8e31",
+      "title": "Lightweight Camp Collar Button-Up Shirt",
+      "price": "98",
+      "image": "../src/Men/dress/lightweight.webp",
+      "productId": "2",
+      "color": "Black",
+      "size": "6"
     }
   ]
 }

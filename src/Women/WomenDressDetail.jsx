@@ -13,7 +13,7 @@ export const WomenDressDetail = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
-        fetch(`http://localhost:3000/womendress/?id=${userId}`)
+        fetch(`https://swanky-carpal-work.glitch.me/womendress/?id=${userId}`)
         .then((response) => response.json())
         .then((data) => {
             console.log(data)
@@ -32,7 +32,7 @@ export const WomenDressDetail = () => {
         delete currentProduct['id'];
         
         try {
-        const response = await fetch('http://localhost:3000/cart', {
+        const response = await fetch('https://swanky-carpal-work.glitch.me/cart', {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({

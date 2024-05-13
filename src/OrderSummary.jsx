@@ -6,7 +6,7 @@ export const OrderSummary = () => {
     const [subtotal, setSubtotal] = useState(0);
 
     useEffect(() => {
-        fetch(`http://localhost:3000/cart`)
+        fetch(`https://swanky-carpal-work.glitch.me/cart`)
             .then((response) => response.json())
             .then((data) => setProducts(data))
             .catch((error) => console.log(error))

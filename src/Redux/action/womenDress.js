@@ -29,7 +29,7 @@ export function sortdressDesc() {
 export const fetchdress = () => async (dispatch) => {
     try {
         dispatch(fetchdressRequest());
-        const res = await fetch('http://localhost:3000/womendress');
+        const res = await fetch('https://swanky-carpal-work.glitch.me/womendress');
         const data = await res.json();
         dispatch(fetchdressSuccess(data));
     } catch (error) {
