@@ -1,55 +1,95 @@
-
+import React, { useState } from 'react';
 import { Heading, Box, Flex, Image, Text, Input, Checkbox, Select, Button, Center } from "@chakra-ui/react";
 import tick from "./image/tick.png";
 import { OrderSummary } from "./OrderSummary";
-import { useCheck } from './Check'; 
+import { useNavigate } from "react-router-dom";
 
 export const CheckOut = () => {
-    const {
-        email, setEmail,
-        location, setLocation,
-        fName, setFName,
-        lName, setLName,
-        number, setNumber,
-        address, setAddress,
-        city, setCity,
-        state, setState,
-        zip, setZip,
-        errors
-    } = useCheck();
+    const [email, setEmail] = useState("");
+    const [location, setLocation] = useState("");
+    const [fName, setFName] = useState("");
+    const [lName, setLName] = useState("");
+    const [number, setNumber] = useState("");
+    const [address, setAddress] = useState("");
+    const [city, setCity] = useState("");
+    const [state, setState] = useState("");
+    const [zip, setZip] = useState("");
+    const [errors, setErrors] = useState({
+        emailError: '',
+        locationError: '',
+        fNameError: '',
+        lNameError: '',
+        numberError: '',
+        addressError: '',
+        cityError: '',
+        stateError: '',
+        zipError: ''
+    });
+    const navigate = useNavigate();
 
-    const handleSubmit = (e) => {
+
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        if (!Object.values(errors).some(error => error)) {
-            alert("Your Order successfully placed");
-            setEmail("");
-            setFName("");
-            setLName("");
-            setNumber("");
-            setAddress("");
-            setCity("");
-            setState("");
-            setZip("");
-
-        fetch('https://swanky-carpal-work.glitch.me/cart', {
-        method: 'DELETE',
-        headers: {
-            Accept: 'application/json',
-            'Content-Type': 'application/json'
-          }
-        })
-        .then(
-            response => response.json()
-        ).then(data => {
-            console.log(data)
-        }).catch(error => {
-            console.error('Error removing item from cart:', error);
-        });
-
-            console.log('Form data:', { email, location, fName, lName, number, address, city, state, zip });
+        const errors = {};
+        if (!email.trim()) {
+            errors.emailError = 'Please enter your email address.';
+        }
+        if (!location.trim()) {
+            errors.locationError = 'Please select a location.';
+        }
+        if (!fName.trim()) {
+            errors.fNameError = 'Please enter your first name.';
+        }
+        if (!lName.trim()) {
+            errors.lNameError = 'Please enter your last name.';
+        }
+        if (!number.trim()) {
+            errors.numberError = 'Please enter your phone number.';
+        }
+        if (!address.trim()) {
+            errors.addressError = 'Please enter your street address.';
+        }
+        if (!city.trim()) {
+            errors.cityError = 'Please enter your city.';
+        }
+        if (!state.trim()) {
+            errors.stateError = 'Please enter your state.';
+        }
+        if (!zip.trim()) {
+            errors.zipError = 'Please enter your zipcode.';
+        }
+       
+        if (Object.keys(errors).length === 0) {
+            try {
+               
+                alert("Your Order successfully placed");
+                setEmail("");
+                setFName("");
+                setLName("");
+                setNumber("");
+                setAddress("");
+                setCity("");
+                setState("");
+                setZip("");
+                navigate("/");
+               
+                const response = await fetch("https://swanky-carpal-work.glitch.me/cart", {
+                    method: 'DELETE',
+                });
+    
+                if (!response.ok) {
+                    throw new Error('Failed to delete item from cart');
+                }
+    
+                const data = await response.json();
+                console.log('Item removed from cart:', data);
+    
+            } catch (error) {
+                console.error('Error removing item from cart:', error.message);
+            }
         } else {
-            alert("Please enter all fields");
-            console.log('Form submission failed due to validation errors.');
+            // Form validation failed, display error messages
+            setErrors(errors);
         }
     };
 
